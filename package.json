@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "cd /tmp && npm install && npm run build",
+    "heroku-prebuild": "cd /tmp && apt upgrade -y && npm run build",
     "start": "cd api && npm start",
     "test": "node test.js"
   },
